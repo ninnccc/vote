@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Title</title>
+        <link rel="stylesheet" href="vote.css">
+        <link rel="stylesheet" href="../css/normalize.css">
+    </head>
+    <body>
+        <section>
+              <div> </div>
+              <label for="total_people">
+              請輸入該選區選舉人總數
+              <input id="total_people" name="total_people" type="number"></label>
+              <label for="votes">目前提議、連署或投票人數
+              <input id="votes" name="votes" type="number"></label>
+              <button onclick="recall();">送出</button>
+        </section>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="vote.js"></script>
+    </body>
+</html>
